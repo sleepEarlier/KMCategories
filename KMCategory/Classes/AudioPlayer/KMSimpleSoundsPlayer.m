@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 w. All rights reserved.
 //
 
-#import "SoundsPlayer.h"
+#import "KMSimpleSoundsPlayer.h"
 #import <AVFoundation/AVFoundation.h>
 
 @interface KMSimpleSoundsPlayer ()<AVAudioPlayerDelegate>
@@ -18,10 +18,10 @@
 
 + (instancetype)shareInstance
 {
-    static SoundsPlayer *instance = nil;
+    static KMSimpleSoundsPlayer *instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        instance = [[SoundsPlayer alloc]init];
+        instance = [[KMSimpleSoundsPlayer alloc]init];
         
         // 后台播放
         AVAudioSession *sesson = [AVAudioSession sharedInstance];
@@ -42,7 +42,7 @@
 
 + (void)playBackgroundMusicOfPath:(NSString *)path repeat:(BOOL)isRepeat
 {
-    SoundsPlayer *instance = [self shareInstance];
+    KMSimpleSoundsPlayer *instance = [self shareInstance];
     
     [self stopBackgroundMusic];
     
@@ -84,7 +84,7 @@
 
 + (void)stopBackgroundMusic
 {
-    SoundsPlayer *instance = [self shareInstance];
+    KMSimpleSoundsPlayer *instance = [self shareInstance];
     
     [instance stopBackgroundMusic];
 }
@@ -101,7 +101,7 @@
 
 + (void)playEffectMusicOfPath:(NSString *)path
 {
-    SoundsPlayer *instace = [self shareInstance];
+    KMSimpleSoundsPlayer *instace = [self shareInstance];
     if (instace.effectPlayer) {
         [instace.effectPlayer stop];
         instace.effectPlayer.delegate = nil;

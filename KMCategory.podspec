@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = "KMCategory provide some categories methods and some simple utls"
 
   s.description  = <<-DESC
-                  This provide some frequently used categories methods
+                  KMCategory provide some frequently used categories methods and some simple utls.
                    DESC
 
   s.homepage     = "https://github.com/sleepEarlier/KMCategories"
