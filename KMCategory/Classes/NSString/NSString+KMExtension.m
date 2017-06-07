@@ -6,10 +6,10 @@
 //  Copyright © 2016年 kimiLin. All rights reserved.
 //
 
-#import "NSString+kmExt.h"
+#import "NSString+KMExtension.h"
 #import <CommonCrypto/CommonCrypto.h>
 
-@implementation NSString (kmExt)
+@implementation NSString (KMExtension)
 - (NSString *) km_md5
 {
     const char *cStr = [self UTF8String];
@@ -50,6 +50,21 @@
 }
 
 - (NSRange)km_range {
-    return NSMakeRange(0, self.length);
+    NSRange range = NSMakeRange(0, self.length);
+    return range;
 }
+
+- (NSString *)pinyinString {
+    if (self.length == 0) {
+        return nil;
+    }
+    CFStringRef charactor = (__bridge CFStringRef)self;
+    CFMutableStringRef pinyin = CFStringCreateMutableCopy(NULL, 0, charactor);
+    CFStringTransform(pinyin, NULL, kCFStringTransformMandarinLatin, NO);
+    CFStringTransform(pinyin, NULL, kCFStringTransformStripCombiningMarks, NO);
+    CFRelease(charactor);
+    NSString *result = CFBridgingRelease(pinyin);
+    return result;
+}
+
 @end

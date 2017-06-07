@@ -6,9 +6,9 @@
 //  Copyright © 2016年 kimiLin. All rights reserved.
 //
 
-#import "UIView+kmExt.h"
+#import "UIView+KMExtension.h"
 
-@implementation UIView (kmExt)
+@implementation UIView (KMExtension)
 
 -(CGFloat)km_x{
     return self.frame.origin.x;
@@ -100,26 +100,6 @@
     self.frame = (CGRect){r.origin, km_size};
 }
 
-- (void)setKm_centerX:(CGFloat)km_centerX {
-    CGPoint c = self.center;
-    c.x = km_centerX;
-    self.center = c;
-}
-
-- (CGFloat)km_centerX {
-    return self.center.x;
-}
-
-- (void)setKm_centerY:(CGFloat)km_centerY {
-    CGPoint c = self.center;
-    c.y = km_centerY;
-    self.center = c;
-}
-
-- (CGFloat)km_centerY {
-    return self.center.y;
-}
-
 - (UIImage *) km_captureImage
 {
     UIGraphicsBeginImageContextWithOptions(self.km_size, NO, 0.0);
@@ -139,7 +119,9 @@
 @end
 
 
-@implementation CALayer (frame)
+
+
+@implementation CALayer (KMExtension)
 
 -(CGFloat)km_x{
     return self.frame.origin.x;
@@ -252,6 +234,3 @@
 }
 
 @end
-
-
-

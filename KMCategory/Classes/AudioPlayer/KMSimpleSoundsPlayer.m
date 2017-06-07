@@ -9,12 +9,12 @@
 #import "SoundsPlayer.h"
 #import <AVFoundation/AVFoundation.h>
 
-@interface SoundsPlayer ()<AVAudioPlayerDelegate>
+@interface KMSimpleSoundsPlayer ()<AVAudioPlayerDelegate>
 @property(nonatomic,strong)AVAudioPlayer * backgroundPlayer;
 @property(nonatomic,strong)AVAudioPlayer * effectPlayer;
 @end
 
-@implementation SoundsPlayer
+@implementation KMSimpleSoundsPlayer
 
 + (instancetype)shareInstance
 {

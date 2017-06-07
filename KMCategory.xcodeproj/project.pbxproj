@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC84E97C1EE7FF32009DA065 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84E97B1EE7FF32009DA065 /* main.m */; };
+		DC84E97F1EE7FF32009DA065 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84E97E1EE7FF32009DA065 /* AppDelegate.m */; };
+		DC84E9821EE7FF32009DA065 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84E9811EE7FF32009DA065 /* ViewController.m */; };
+		DC84E9851EE7FF32009DA065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC84E9831EE7FF32009DA065 /* Main.storyboard */; };
+		DC84E9871EE7FF32009DA065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC84E9861EE7FF32009DA065 /* Assets.xcassets */; };
+		DC84E98A1EE7FF32009DA065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC84E9881EE7FF32009DA065 /* LaunchScreen.storyboard */; };
+		DC84E9A51EE7FF3F009DA065 /* KMSimpleSoundsPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84E9941EE7FF3F009DA065 /* KMSimpleSoundsPlayer.m */; };
+		DC84E9A61EE7FF3F009DA065 /* KMLocationHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84E9981EE7FF3F009DA065 /* KMLocationHelp.m */; };
+		DC84E9A71EE7FF3F009DA065 /* NSDictionary+KMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84E99B1EE7FF3F009DA065 /* NSDictionary+KMExtension.m */; };
+		DC84E9A81EE7FF3F009DA065 /* NSString+KMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84E99E1EE7FF3F009DA065 /* NSString+KMExtension.m */; };
+		DC84E9A91EE7FF3F009DA065 /* UIImage+KMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84E9A11EE7FF3F009DA065 /* UIImage+KMExtension.m */; };
+		DC84E9AA1EE7FF3F009DA065 /* UIView+KMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84E9A41EE7FF3F009DA065 /* UIView+KMExtension.m */; };
+		DC84E9AE1EE7FF85009DA065 /* UIDevice+KMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84E9AD1EE7FF85009DA065 /* UIDevice+KMExtension.m */; };
+		DC84E9B21EE80E1D009DA065 /* NSArray+KMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84E9B11EE80E1D009DA065 /* NSArray+KMExtension.m */; };
+		DC84E9B61EE80E7F009DA065 /* NSDate+KMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84E9B51EE80E7F009DA065 /* NSDate+KMExtension.m */; };
+		DC84E9BA1EE80FE2009DA065 /* NSFileManager+KMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84E9B91EE80FE2009DA065 /* NSFileManager+KMExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC84E9771EE7FF32009DA065 /* KMCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC84E97B1EE7FF32009DA065 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC84E97D1EE7FF32009DA065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC84E97E1EE7FF32009DA065 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC84E9801EE7FF32009DA065 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC84E9811EE7FF32009DA065 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC84E9841EE7FF32009DA065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC84E9861EE7FF32009DA065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC84E9891EE7FF32009DA065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC84E98B1EE7FF32009DA065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC84E9931EE7FF3F009DA065 /* KMSimpleSoundsPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSimpleSoundsPlayer.h; sourceTree = "<group>"; };
+		DC84E9941EE7FF3F009DA065 /* KMSimpleSoundsPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSimpleSoundsPlayer.m; sourceTree = "<group>"; };
+		DC84E9951EE7FF3F009DA065 /* KMCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMCategories.h; sourceTree = "<group>"; };
+		DC84E9971EE7FF3F009DA065 /* KMLocationHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLocationHelp.h; sourceTree = "<group>"; };
+		DC84E9981EE7FF3F009DA065 /* KMLocationHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLocationHelp.m; sourceTree = "<group>"; };
+		DC84E99A1EE7FF3F009DA065 /* NSDictionary+KMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KMExtension.h"; sourceTree = "<group>"; };
+		DC84E99B1EE7FF3F009DA065 /* NSDictionary+KMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KMExtension.m"; sourceTree = "<group>"; };
+		DC84E99D1EE7FF3F009DA065 /* NSString+KMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KMExtension.h"; sourceTree = "<group>"; };
+		DC84E99E1EE7FF3F009DA065 /* NSString+KMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KMExtension.m"; sourceTree = "<group>"; };
+		DC84E9A01EE7FF3F009DA065 /* UIImage+KMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KMExtension.h"; sourceTree = "<group>"; };
+		DC84E9A11EE7FF3F009DA065 /* UIImage+KMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KMExtension.m"; sourceTree = "<group>"; };
+		DC84E9A31EE7FF3F009DA065 /* UIView+KMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KMExtension.h"; sourceTree = "<group>"; };
+		DC84E9A41EE7FF3F009DA065 /* UIView+KMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KMExtension.m"; sourceTree = "<group>"; };
+		DC84E9AC1EE7FF85009DA065 /* UIDevice+KMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+KMExtension.h"; sourceTree = "<group>"; };
+		DC84E9AD1EE7FF85009DA065 /* UIDevice+KMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+KMExtension.m"; sourceTree = "<group>"; };
+		DC84E9B01EE80E1D009DA065 /* NSArray+KMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KMExtension.h"; sourceTree = "<group>"; };
+		DC84E9B11EE80E1D009DA065 /* NSArray+KMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KMExtension.m"; sourceTree = "<group>"; };
+		DC84E9B41EE80E7F009DA065 /* NSDate+KMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KMExtension.h"; sourceTree = "<group>"; };
+		DC84E9B51EE80E7F009DA065 /* NSDate+KMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KMExtension.m"; sourceTree = "<group>"; };
+		DC84E9B81EE80FE2009DA065 /* NSFileManager+KMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+KMExtension.h"; sourceTree = "<group>"; };
+		DC84E9B91EE80FE2009DA065 /* NSFileManager+KMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+KMExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC84E9741EE7FF32009DA065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC84E96E1EE7FF32009DA065 = {
+			isa = PBXGroup;
+			children = (
+				DC84E9791EE7FF32009DA065 /* KMCategory */,
+				DC84E9781EE7FF32009DA065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC84E9781EE7FF32009DA065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E9771EE7FF32009DA065 /* KMCategory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC84E9791EE7FF32009DA065 /* KMCategory */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E9911EE7FF3F009DA065 /* Classes */,
+				DC84E97D1EE7FF32009DA065 /* AppDelegate.h */,
+				DC84E97E1EE7FF32009DA065 /* AppDelegate.m */,
+				DC84E9801EE7FF32009DA065 /* ViewController.h */,
+				DC84E9811EE7FF32009DA065 /* ViewController.m */,
+				DC84E9831EE7FF32009DA065 /* Main.storyboard */,
+				DC84E9861EE7FF32009DA065 /* Assets.xcassets */,
+				DC84E9881EE7FF32009DA065 /* LaunchScreen.storyboard */,
+				DC84E98B1EE7FF32009DA065 /* Info.plist */,
+				DC84E97A1EE7FF32009DA065 /* Supporting Files */,
+			);
+			path = KMCategory;
+			sourceTree = "<group>";
+		};
+		DC84E97A1EE7FF32009DA065 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E97B1EE7FF32009DA065 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC84E9911EE7FF3F009DA065 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E9951EE7FF3F009DA065 /* KMCategories.h */,
+				DC84E9921EE7FF3F009DA065 /* AudioPlayer */,
+				DC84E9961EE7FF3F009DA065 /* KMLocationHelp */,
+				DC84E9991EE7FF3F009DA065 /* NDDictionary */,
+				DC84E99C1EE7FF3F009DA065 /* NSString */,
+				DC84E99F1EE7FF3F009DA065 /* UIImage */,
+				DC84E9A21EE7FF3F009DA065 /* UIView */,
+				DC84E9AB1EE7FF73009DA065 /* UIDevice */,
+				DC84E9AF1EE80DFE009DA065 /* NSArray */,
+				DC84E9B31EE80E6C009DA065 /* NSDate */,
+				DC84E9B71EE80FD2009DA065 /* NSFileManager */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DC84E9921EE7FF3F009DA065 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E9931EE7FF3F009DA065 /* KMSimpleSoundsPlayer.h */,
+				DC84E9941EE7FF3F009DA065 /* KMSimpleSoundsPlayer.m */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		DC84E9961EE7FF3F009DA065 /* KMLocationHelp */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E9971EE7FF3F009DA065 /* KMLocationHelp.h */,
+				DC84E9981EE7FF3F009DA065 /* KMLocationHelp.m */,
+			);
+			path = KMLocationHelp;
+			sourceTree = "<group>";
+		};
+		DC84E9991EE7FF3F009DA065 /* NDDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E99A1EE7FF3F009DA065 /* NSDictionary+KMExtension.h */,
+				DC84E99B1EE7FF3F009DA065 /* NSDictionary+KMExtension.m */,
+			);
+			path = NDDictionary;
+			sourceTree = "<group>";
+		};
+		DC84E99C1EE7FF3F009DA065 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E99D1EE7FF3F009DA065 /* NSString+KMExtension.h */,
+				DC84E99E1EE7FF3F009DA065 /* NSString+KMExtension.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		DC84E99F1EE7FF3F009DA065 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E9A01EE7FF3F009DA065 /* UIImage+KMExtension.h */,
+				DC84E9A11EE7FF3F009DA065 /* UIImage+KMExtension.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		DC84E9A21EE7FF3F009DA065 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E9A31EE7FF3F009DA065 /* UIView+KMExtension.h */,
+				DC84E9A41EE7FF3F009DA065 /* UIView+KMExtension.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		DC84E9AB1EE7FF73009DA065 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E9AC1EE7FF85009DA065 /* UIDevice+KMExtension.h */,
+				DC84E9AD1EE7FF85009DA065 /* UIDevice+KMExtension.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		DC84E9AF1EE80DFE009DA065 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E9B01EE80E1D009DA065 /* NSArray+KMExtension.h */,
+				DC84E9B11EE80E1D009DA065 /* NSArray+KMExtension.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		DC84E9B31EE80E6C009DA065 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E9B41EE80E7F009DA065 /* NSDate+KMExtension.h */,
+				DC84E9B51EE80E7F009DA065 /* NSDate+KMExtension.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		DC84E9B71EE80FD2009DA065 /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				DC84E9B81EE80FE2009DA065 /* NSFileManager+KMExtension.h */,
+				DC84E9B91EE80FE2009DA065 /* NSFileManager+KMExtension.m */,
+			);
+			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC84E9761EE7FF32009DA065 /* KMCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC84E98E1EE7FF32009DA065 /* Build configuration list for PBXNativeTarget "KMCategory" */;
+			buildPhases = (
+				DC84E9731EE7FF32009DA065 /* Sources */,
+				DC84E9741EE7FF32009DA065 /* Frameworks */,
+				DC84E9751EE7FF32009DA065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMCategory;
+			productName = KMCategory;
+			productReference = DC84E9771EE7FF32009DA065 /* KMCategory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC84E96F1EE7FF32009DA065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = KimiLin;
+				TargetAttributes = {
+					DC84E9761EE7FF32009DA065 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = YJC69R4V88;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = DC84E9721EE7FF32009DA065 /* Build configuration list for PBXProject "KMCategory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC84E96E1EE7FF32009DA065;
+			productRefGroup = DC84E9781EE7FF32009DA065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC84E9761EE7FF32009DA065 /* KMCategory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC84E9751EE7FF32009DA065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC84E98A1EE7FF32009DA065 /* LaunchScreen.storyboard in Resources */,
+				DC84E9871EE7FF32009DA065 /* Assets.xcassets in Resources */,
+				DC84E9851EE7FF32009DA065 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC84E9731EE7FF32009DA065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC84E9821EE7FF32009DA065 /* ViewController.m in Sources */,
+				DC84E9A91EE7FF3F009DA065 /* UIImage+KMExtension.m in Sources */,
+				DC84E9B61EE80E7F009DA065 /* NSDate+KMExtension.m in Sources */,
+				DC84E9A61EE7FF3F009DA065 /* KMLocationHelp.m in Sources */,
+				DC84E9B21EE80E1D009DA065 /* NSArray+KMExtension.m in Sources */,
+				DC84E9A71EE7FF3F009DA065 /* NSDictionary+KMExtension.m in Sources */,
+				DC84E9BA1EE80FE2009DA065 /* NSFileManager+KMExtension.m in Sources */,
+				DC84E9AA1EE7FF3F009DA065 /* UIView+KMExtension.m in Sources */,
+				DC84E9A81EE7FF3F009DA065 /* NSString+KMExtension.m in Sources */,
+				DC84E97F1EE7FF32009DA065 /* AppDelegate.m in Sources */,
+				DC84E9AE1EE7FF85009DA065 /* UIDevice+KMExtension.m in Sources */,
+				DC84E9A51EE7FF3F009DA065 /* KMSimpleSoundsPlayer.m in Sources */,
+				DC84E97C1EE7FF32009DA065 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC84E9831EE7FF32009DA065 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC84E9841EE7FF32009DA065 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC84E9881EE7FF32009DA065 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC84E9891EE7FF32009DA065 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC84E98C1EE7FF32009DA065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC84E98D1EE7FF32009DA065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC84E98F1EE7FF32009DA065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YJC69R4V88;
+				INFOPLIST_FILE = KMCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dingtalk.hack.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8ce1a785-e8fb-41eb-b5ac-0a3fa54688ba";
+				PROVISIONING_PROFILE_SPECIFIER = DingTalk_dev;
+			};
+			name = Debug;
+		};
+		DC84E9901EE7FF32009DA065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YJC69R4V88;
+				INFOPLIST_FILE = KMCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dingtalk.hack.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8ce1a785-e8fb-41eb-b5ac-0a3fa54688ba";
+				PROVISIONING_PROFILE_SPECIFIER = DingTalk_dev;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC84E9721EE7FF32009DA065 /* Build configuration list for PBXProject "KMCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC84E98C1EE7FF32009DA065 /* Debug */,
+				DC84E98D1EE7FF32009DA065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC84E98E1EE7FF32009DA065 /* Build configuration list for PBXNativeTarget "KMCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC84E98F1EE7FF32009DA065 /* Debug */,
+				DC84E9901EE7FF32009DA065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC84E96F1EE7FF32009DA065 /* Project object */;
+}

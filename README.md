@@ -1,3 +1,1 @@
-# KMCategories
-Some categories
-Provide some frequent used categoires method
+This provide some frequently used categories methods
